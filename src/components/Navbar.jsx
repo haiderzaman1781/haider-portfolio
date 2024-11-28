@@ -72,7 +72,7 @@ const Navbar = () => {
                         <ul className={`flex flex-col md:flex-row md:space-x-8 ${isOpen ? "bg-[#131F22]" : ""}`}>
                             <li>
                                 <NavLink
-                                    to="/home"
+                                    to="/"
                                     className=" navlink block py-2 cursor-pointer px-3 text-gray-400 dark:text-white hover:text-gray-200 focus:text-gray-200 rounded hover:bg-[#94a883]  focus:bg-[#94a883] "
                                     aria-current="page"
                                 >
