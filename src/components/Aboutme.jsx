@@ -1,7 +1,7 @@
 import React, {  useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import pic from "../assest/Profile.png"
+import pic from "../assest/Profile.jpg"
 
 const Aboutme = () => {
   useEffect(() => {
