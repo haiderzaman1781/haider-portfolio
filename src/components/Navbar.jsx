@@ -35,7 +35,7 @@ const Navbar = () => {
             <nav className="navbar-round sticky top-0 z-50 ">
                 <div className="main-navbar bg-[#131F22] shadow-lg shadow-[#131F22] dark:shadow-white flex flex-wrap items-center justify-around mx-auto p-4 ">
                     <NavLink
-                        to="home"
+                        to="/"
                         className="flex items-center space-x-3 rtl:space-x-reverse"
                     >
                         <img className="w-[50px]" src={logo} alt="" />
