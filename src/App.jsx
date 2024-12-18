@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import "./main.js"
 import {
   Navbar,Hero , Searchbar, Skill,
@@ -9,7 +8,6 @@ import {
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <BrowserRouter>
