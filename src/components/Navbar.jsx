@@ -33,7 +33,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar-main">
-                <div className="main-navbar bg-[#131F22] shadow-lg shadow-[#131F22] dark:shadow-white flex flex-wrap items-center justify-around mx-auto lg:p-4 ">
+                <div className="main-navbar bg-[#131F22] shadow-lg shadow-[#131F22] dark:shadow-white flex flex-wrap items-center justify-around mx-auto p-4 ">
                     <NavLink
                         to="/"
                         className="flex items-center space-x-3 rtl:space-x-reverse"
