@@ -32,7 +32,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="navbar-round sticky top-0 z-50 ">
+            <nav className="navbar-main">
                 <div className="main-navbar bg-[#131F22] shadow-lg shadow-[#131F22] dark:shadow-white flex flex-wrap items-center justify-around mx-auto p-4 ">
                     <NavLink
                         to="/"
